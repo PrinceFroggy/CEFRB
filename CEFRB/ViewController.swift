@@ -258,7 +258,7 @@ class ViewController: NSViewController, NSComboBoxDelegate
             "Accept-Language": "en-US,en;q=0.9",
             "Cache-Control": "max-age=0",
             "Origin": "https://forum.cheatengine.org",
-            "Referer": "https://forum.cheatengine.org/posting.php?mode=newtopic&f=131",
+            "Referer": "https://forum.cheatengine.org/posting.php?mode=newtopic&f=131", //potential problem with not associating local variable f (instead of 131)
             "upgrade-insecure-requests": "1",
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36",
             "Cookie": "phpbb2mysql_t=\(phpbb2mysql_t!); phpbb2mysql_data=\(phpbb2mysqldata!); phpbb2mysql_sid=\(phpbb2mysqlsid!);",
